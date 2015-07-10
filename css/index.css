@@ -1,0 +1,63 @@
+body {
+    font: .9em/1.5 geneva, verdana, arial, sans-serif;
+    background: url("../img/hollister_4 copy.jpg") no-repeat 70% 50%;
+}
+
+header {
+    width: 100%;
+    padding: .3%;
+    background-color: rgba(255, 255, 255, 0.64);
+    overflow: hidden;
+
+}
+
+h1{
+    padding: .8%;
+    margin: 1% 6% 1% 1%;
+    float: left;
+
+}
+
+ul{
+    width:70%;
+    margin: 2.8% auto;
+    float: left;
+    border-bottom: #000 solid 1px;
+}
+
+li{
+    width: 70%;
+    padding: 1.2% 1.2% 1.2% 1.2%;
+    margin: 0 2% 0 2%;
+    display: inline;
+}
+
+a{
+    color: #000;
+    text-decoration:none;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+li a:hover{
+    border-top: rgba(215, 160, 29, 1) solid 2px;
+}
+
+section {
+    width: 25%;
+    padding: 1.5% 1.5% 2.8% 1.5%;
+    margin: 7% 0 0 8%;
+    background:rgba(255, 255, 255, 0.80) ;
+    color: #000;
+
+}
+h2{
+    font-weight: bold;
+}
+
+footer{
+    width: 100%;
+    text-align: center;
+
+
+}
