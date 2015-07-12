@@ -205,3 +205,53 @@ footer{
     }
 
 }
+
+@media screen and (min-width: 100px) and (max-width: 334px) {
+
+    h1 {
+        float: none;
+        text-align: center;
+    }
+
+    header {
+        background: none;
+    }
+
+    ul {
+        width: 100%;
+        background: rgba(224, 224, 224, .50);
+        border: none;
+    }
+
+    li {
+        width: 50%;
+        margin: 0 10%;
+        text-align: center;
+        float: none;
+        display: block;
+        background: rgba(224, 224, 224, .50);
+        border-radius: .8%;
+    }
+
+    li:nth-child(odd) {
+        background: rgba(201, 201, 201, .50);
+
+    }
+
+    li:hover {
+        background: rgba(255, 255, 255, .50);
+    }
+
+    li a:hover {
+        border-top: none;
+
+    }
+
+    section {
+        margin-left: 4%;
+        padding: 6.3%;
+        width: 77.25%;
+    }
+
+}
+
