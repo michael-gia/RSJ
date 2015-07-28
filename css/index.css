@@ -14,41 +14,45 @@ header {
     width: 100%;
     margin: .0549451% auto; /* 10px */
     padding: .0274725%;   /* 5px */
-    background-color: rgba(255, 255, 255, 0.64);
+    background: rgba(255, 255, 255, 0.64);
     overflow: hidden;
-
 }
 
-h1{
-    padding: .043956%;   /* 8px */
-    margin: 1.373626% 2.472527%;  /* 25px 45px */
-    float: left;
+ header h1{
+     width: 100%;
+     padding: 3% 15% 3% 2%;   /* 8px */
+     margin: 1.7% .8% .8% 26%;  /* 25px 45px */
+     background: url("../img/RanchoSanJulian.png") no-repeat;
+     float: left;
+     text-indent: -9999px;
 
 }
 
 ul{
-    width: 60.43956%;  /* 1100px */
-    margin: 2.372527% auto;  /* 45px */
+    width: 100%;  /* 1100px */  /* 45px */
+    padding: 0;
+    margin: 0%;
     float: left;
-    border-bottom: #000 solid 1px;
 }
 
 li{
-    width: 54.945055%;  /* 10px */
-    padding: .0549451% 1.373626%; /* 10px 25px */
-    margin: 0 .0549451%; /* 10px */
+    width: 20.73%; /* 10px */
+    padding: 0 .06%;
     display: inline;
 }
 
 a{
+    width: 27%;
+    padding: .8% 14.05%;
     color: #000;
+    background: rgba(255, 148, 61, .65);
     text-decoration:none;
     font-weight: bold;
     font-size: 1.5em;
 }
 
-li a:hover{
-    border-top: rgba(215, 160, 29, 1) solid 2px;
+a:hover{
+    background: rgba(255, 148, 61, .80);
 }
 
 section {
@@ -66,6 +70,9 @@ h2{
 footer{
     width: 100%;  /* 10px */
     text-align: center;
+    color: #efefef;
+    font-weight: bold;
+    font-style: italic;
 
 }
 
@@ -182,7 +189,6 @@ footer{
         float: none;
         display: block;
         background: rgba(224, 224, 224, .50);
-        border-radius: .8%;
     }
 
     li:nth-child(odd){
@@ -230,7 +236,6 @@ footer{
         float: none;
         display: block;
         background: rgba(224, 224, 224, .50);
-        border-radius: .8%;
     }
 
     li:nth-child(odd) {
